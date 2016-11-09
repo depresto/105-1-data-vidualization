@@ -3,12 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Test SVG</title>
+	<script type="text/javascript" src="script/d3.min.js"></script>
 </head>
 <body>
-	<svg width="500" height="500">
-		<circle cx="150" cy="100" r="50" stroke="#ccc" stroke-width="3" fill="brown" />
-		<path d="M 10 350 q 50 -200 150 -100" stroke="#ddd" stroke-width="3" fill="lightgreen"/>
-		<path d="M 100 350 q 150 -300 300 0" stroke="#ddd" stroke-width="3" fill="darkgreen"/>
-	</svg>
+	<script>
+		var svg = d3.select("body").append("svg").attr("width", 1000).attr("height", 1000).attr("id", "chart");
+
+		svg.append("circle").attr("cx", 100).attr("cy", 100).attr("r", 50).attr("stroke", "#ccc").attr("stroke-width", "3px").attr("fill", "#fff")
+		svg.append("path").attr("stroke", "#ccc").attr("stroke-width", "3px").attr("fill", "#fff").attr("d", "M 100 350 q 150 -300 300 0")
+	</script>
 </body>
 </html>
