@@ -4,53 +4,14 @@
 	<meta charset="UTF-8">
 	<title>2330 Two-Day's price</title>
 	<script type="text/javascript" src="script/d3.min.js"></script>
-	<style>
-		body {
-			padding: 0;
-			margin: 0;
-		}
-		#chart {
-			stroke: #000;
-			fill: 	none;
-			stroke-width: 2px;
-		}
-	</style>
+	<script type="text/javascript" src="script/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
-	<svg id="chart" width="1000" height="500"></svg>
+	<div class="content"></div>
+
 	<script>
-		var svg = d3.select("#chart");
-
-		var width 	= svg.attr("width");
-		var height 	= svg.attr("height");
-
-		var STOCK 	= "2330.TW";
-		var URL 	= "http://chartapi.finance.yahoo.com/instrument/1.0/"+STOCK+"/chartdata;type=quote;range=2d/json";
-
-		d3.request(URL)
-			.mimeType("application/json")
-			.response(function(xhr) {  
-				response = xhr.responseText.split('finance_charts_json_callback(')[1].split(')')[0];
-				return JSON.parse(response).series; 
-			})
-			.get(function(error, data) {
-			if (error)
-				console.error(error);
-
-			console.log(data);
-
-			var max  = d3.max(data,function(dat){return dat.close;});
-			var min  = d3.min(data,function(dat){return dat.close;});
-			console.log(max- min);
-			var len  = data.length;
-			var line = d3.line()
-						.x(function(dat,i)	{return i*(width/len);})
-						.y(function(dat)	{return height - (dat.close - min) * (height/(max-min));});
-
-			svg.append("path").data([data]).attr("d", line);
-		});
-
-
+		drawChart(1000, 1000);
 	</script>
 </body>
 </html>
