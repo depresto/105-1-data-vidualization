@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wiki Blockchain Word Cloud</title>
+	<script type="text/javascript" src="script/d3.js"></script>
+	<script type="text/javascript" src="script/d3.layout.cloud.js"></script>
+	<script type="text/javascript" src="script/d3.wordcloud.js"></script>
+</head>
+<body>
+	<center class="content">
+		<h1>Wiki Blockchain</h1>
+		<div id="cloud"></div>
+	</center>
+
+	<script>
+		d3.csv("./data.csv", function (data){
+
+			console.log(data);
+			d3.wordcloud()
+		        .size([800, 400])
+		        .selector('#cloud')
+		        .font('sans-serif')
+		        .scale('linear')
+		        .transitionDuration(1000)
+		        .words(data)
+		        .start();
+
+		});
+	</script>
+</body>
+</html>
