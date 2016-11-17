@@ -9,7 +9,7 @@ function drawChart(width = 500, height = 500){
 	var URL 	= "https://chartapi.finance.yahoo.com/instrument/1.0/"+STOCK+"/chartdata;type=quote;range=2d/json";
 
 	d3.request(URL)
-	.mimeType("application/json")
+	.mimeType("text/plain")
 	.response(function(xhr) {  
 		response = xhr.responseText.split('finance_charts_json_callback(')[1].split(')')[0];
 		return JSON.parse(response).series; 
