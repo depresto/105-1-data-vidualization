@@ -2936,7 +2936,7 @@
 		padding: 12em 0 10em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
-		background-position: top;
+		background-position: bottom;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;

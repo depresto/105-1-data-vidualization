@@ -1,0 +1,1349 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newDataIndex"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"def",
+				"deferredUpdate"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"data",
+				"dataIndex"
+			],
+			[
+				"coun",
+				"counter"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"yea",
+				"yearmonths"
+			],
+			[
+				"y",
+				"yearmonth"
+			],
+			[
+				"de",
+				"desiredYearMonth"
+			],
+			[
+				"yearm",
+				"yearmonths"
+			],
+			[
+				"mon",
+				"month"
+			],
+			[
+				"des",
+				"desiredFieldId"
+			],
+			[
+				"yae",
+				"year"
+			],
+			[
+				"mo",
+				"month"
+			],
+			[
+				"cou",
+				"country"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"f",
+				"features"
+			],
+			[
+				"dis",
+				"desiredYearMonth"
+			],
+			[
+				"pa",
+				"parseHash"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"Data",
+				"dataById"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pr",
+				"properties"
+			],
+			[
+				"count",
+				"countries"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ci",
+				"countries"
+			],
+			[
+				"geo",
+				"geometries"
+			],
+			[
+				"to",
+				"topology"
+			],
+			[
+				"pm25",
+				"pm25_value"
+			],
+			[
+				"in",
+				"pm25_index"
+			],
+			[
+				"pm",
+				"pm25_index"
+			],
+			[
+				"show",
+				"showChart"
+			],
+			[
+				"GE",
+				"GeolocationService"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"PM",
+				"PM25_INDEX"
+			],
+			[
+				"_d",
+				"_data"
+			],
+			[
+				"sho",
+				"showLocation"
+			],
+			[
+				"no",
+				"north_east_lon"
+			],
+			[
+				"sou",
+				"south_west_lon"
+			],
+			[
+				"pm2",
+				"pm25_value"
+			],
+			[
+				"tem",
+				"temperature"
+			],
+			[
+				"bg",
+				"bgsz	background-size"
+			],
+			[
+				"hi",
+				"highs"
+			],
+			[
+				"wa",
+				"weather"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"temp",
+				"tempchart"
+			],
+			[
+				"sma",
+				"smaller"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"se",
+				"sessionStorage"
+			],
+			[
+				"ge",
+				"geolocation"
+			],
+			[
+				"co",
+				"coords"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"Ge",
+				"GeolocationService"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"ap",
+				"api_v1_auth"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"lo",
+				"local_host"
+			],
+			[
+				"admin",
+				"admin_order"
+			],
+			[
+				"orde",
+				"orders"
+			],
+			[
+				"or",
+				"orders"
+			],
+			[
+				"order",
+				"order_details"
+			],
+			[
+				"st",
+				"store_id"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"controller",
+				"controllers"
+			],
+			[
+				"be",
+				"before_action"
+			],
+			[
+				"ad",
+				"admin_cuisines"
+			],
+			[
+				"cu",
+				"cuisine"
+			],
+			[
+				"upl",
+				"upload-preview"
+			],
+			[
+				"image",
+				"image_preview"
+			],
+			[
+				"uplo",
+				"image_upload"
+			],
+			[
+				"adi",
+				"admin_cuisine"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"val",
+				"validates_uniqueness_of"
+			],
+			[
+				"btn-",
+				"btn-secondary"
+			],
+			[
+				"adim",
+				"admin_store"
+			],
+			[
+				"Cuisine",
+				"Cuisine"
+			],
+			[
+				"cui",
+				"cuisines"
+			],
+			[
+				"time",
+				"time_zone"
+			],
+			[
+				"adm",
+				"admin_store"
+			],
+			[
+				"admin_st",
+				"adimin_store"
+			],
+			[
+				"bt",
+				"btn-primary"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"fomr",
+				"form-control"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"cont",
+				"control-label"
+			],
+			[
+				"img",
+				"image_url"
+			],
+			[
+				"im",
+				"image_url"
+			],
+			[
+				"clci",
+				"click_id"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"club",
+				"club_properties"
+			],
+			[
+				"imgur",
+				"Imgurapi"
+			],
+			[
+				"let",
+				"letsencrypt"
+			],
+			[
+				"input",
+				"input-picture"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"Borr",
+				"BorrowRoom"
+			],
+			[
+				"cal",
+				"calEvent"
+			],
+			[
+				"ca",
+				"calEvent"
+			],
+			[
+				"sche",
+				"schedule_content_id"
+			],
+			[
+				"action",
+				"action_name"
+			],
+			[
+				"ac",
+				"action_name"
+			],
+			[
+				"ui-g",
+				"ui-grid-b"
+			],
+			[
+				"max",
+				"maxSum"
+			],
+			[
+				"tu",
+				"turn_2"
+			],
+			[
+				"t",
+				"turn"
+			],
+			[
+				"tur",
+				"turn"
+			],
+			[
+				"turn",
+				"turn_2"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"ta",
+				"ta-l	text-align: left;"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bdr",
+				"bdrs	border-radius"
+			],
+			[
+				"taL",
+				"ta:l	text-align:left"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"nav",
+				"nav-sub-menu"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"me",
+				"menu-toggle"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"on",
+				"only"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"name",
+				"namespace"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "final/index.html",
+			"settings":
+			{
+				"buffer_size": 12174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "final/topogram/test.html",
+			"settings":
+			{
+				"buffer_size": 10302,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "json",
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ja",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":q",
+				"Git: Quick Commit"
+			],
+			[
+				"livre",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"sli",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"slim",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"slu",
+				"Set Syntax: Lua"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"cod",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"code",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"con",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"convert",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ha",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ruby ha",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"ruby ",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"liver",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Emmet: Remove Tag"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"c",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				":$ - EOF"
+			],
+			[
+				"",
+				":0 - BOF"
+			],
+			[
+				"l",
+				"LiveReload: Self test"
+			],
+			[
+				"live",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			">>>",
+			"git",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram/data",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram/lib",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style"
+	],
+	"file_history":
+	[
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/none.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style/bootstrap-select.min.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/bootstrap-select.min.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/jquery.min.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style/bootstrap.min.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/index.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/rice.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/fish.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/coffee.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/apple1.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/apple.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/sugar.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/nrlangspop.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/catogram.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/worldcountries.topojson",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/topogram/test.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/topojson.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/cartogram.v1.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/lang_coord.txt",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/nrlangspop.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram/index.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram/lib/d3.v2.min.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/us-states.topojson",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.geo.new1.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/world-50m.simplified.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.topo_1.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.topo.new.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/world-110m.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/world-50m.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/world-110m2.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.geo.new.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.geo.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/suger.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/rice.csv",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/countries.topo.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/topogram/index.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/world-110m.v1.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/cartogram.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/js/ctrl_forecast.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/js/service.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/js/controllers.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/templates/menu.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/index.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/lib/chartist/dist/chartist-plugin-pointlabels.min.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/js/ctrl_main.js",
+		"/Volumes/DataHD/Users/WayneHuang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/bower.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/css/style.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/package.json",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/lib/chartist-js/css/chartist.min.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/lib/chartist-js/js/chartist.min.js.map",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/www/lib/chartist-js/js/chartist.min.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/hooks/after_prepare/010_add_platform_class.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/PM25_phonegap/.bowerrc",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/db/migrate/20160812081118_devise_token_auth_create_users.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/initializers/simple_token_authentication.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/models/omniauth_callbacks.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/models/user.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/application_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/db/schema.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/_form.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/show.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/show.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/new.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/index.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/index.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/api_v1/auths/edit.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/api_v1/auths_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/api_vi/auths_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/api_vi/auth_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/stores/show.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/environments/production.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/models/store.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/models/admin/store.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/db/migrate/20160806094340_add_paid_to_order_details.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/db/migrate/20160806094825_add_active_to_order_details.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/uploaders/image_uploader.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/.env",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/cloudinary.yml",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/.gitignore",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/admin/orders_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/initializers/friendly_id.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/orders_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/cuisines/index.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/cuisines/show.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/stores/show.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/admin/order_details_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/db/migrate/20160728124340_add_friendly_id.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/layouts/application.html.erb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/stores/index.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/initializers/rack_attack.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/initializers/omniauth.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/application.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/environments/development.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/readme.md",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/letsencrypt/keys/.placeholder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/letsencrypt/certificates/.placeholder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/letsencrypt/challenge/.placeholder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/letsencrypt_plugin.yml",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/partials/_admin_header.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/index.json.jbuilder",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/_form.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/config/initializers/assets.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/order_details/new.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/assets/javascripts/application.js",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/layouts/admin.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/partials/_header.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/order_details/index.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/show.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/order_details_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/controllers/admin/stores_controller.rb",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/order_details/_form.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/order_details/edit.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/show.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/new.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/new.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/_form.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/edit.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/index.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/stores/index.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/edit.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/order_details/_form.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/order_details/edit.html.slim",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/index.html.slim"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 144.0,
+		"where_history":
+		[
+			"<current file>",
+			"current file",
+			"",
+			"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/assets/stylesheets/partials",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"data",
+			"disabled",
+			"year",
+			"console",
+			"years",
+			"lo",
+			"SS",
+			"NAME",
+			"key",
+			"dataBy",
+			"rawData",
+			"unit",
+			"印題",
+			"console.log",
+			"geometries",
+			"AW",
+			"\"-99",
+			"{-99",
+			"-99",
+			"placeholder",
+			"worldcoun",
+			"\\w[A-Z]{2}",
+			"states",
+			"Topo",
+			"topo",
+			"type",
+			"533",
+			"Saint Helena, Ascension and Tristan da Cunha",
+			"Taiwan",
+			"Bosnia and Herzegovina",
+			"Bolivia, Plurinational State of",
+			"Afghanistan",
+			"Somaliland",
+			"Kosovo",
+			"Northern ",
+			"Northern Cyprus",
+			"colors",
+			"hashish",
+			"];\n",
+			"title",
+			"kosov",
+			"koso",
+			"CS-",
+			"\\,\\,",
+			"AR",
+			"阿拉伯",
+			"BG",
+			"ＢＧ",
+			"BL",
+			"-99",
+			"10",
+			"\\b([A-Z]{2})[A-Z]{1}\\b",
+			"\\b([A-Z]{2})\\b",
+			"\\b([A-Z]{3})\\b",
+			"\\b[A-Z]{3}\\b",
+			"));\n",
+			"carto.path",
+			"path",
+			"map",
+			"color",
+			"segmentized",
+			"body",
+			"stat(\\.|\\ )",
+			"stat",
+			"stat ",
+			"stat",
+			"();\n",
+			"properties",
+			"Data",
+			"object",
+			"topojson",
+			"topoj",
+			"obj",
+			"conso",
+			"split",
+			"background",
+			"token",
+			"api_vi",
+			"ApiVi",
+			">",
+			"<",
+			"defa",
+			"def",
+			"defin",
+			"rtmp",
+			"url",
+			"file",
+			"sources",
+			"playlist",
+			"extension",
+			"rtmp",
+			"smil",
+			"rtmp",
+			"ajax",
+			"post",
+			"key",
+			"root",
+			"submit",
+			"\\.cuisine",
+			"cuisine",
+			"\\@admin_cuisine",
+			"@admin_cuisine",
+			"bundle",
+			"provides_callback_for",
+			"update_needs_confirmation",
+			"pass",
+			"cuisines",
+			"admin_cuisine",
+			"admin_cuisines",
+			"secret",
+			"controller",
+			"config.action_dispatch.rack_cache",
+			"multipart",
+			"nl",
+			"#{(\\w+)}",
+			"#{\\w+}",
+			"#{*}",
+			"#U",
+			"scp",
+			"#U",
+			"#page-title",
+			"page-title",
+			"page-title ",
+			"page-title h1",
+			"PAGE-TITLE",
+			"soon",
+			"flag",
+			"enve"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$1",
+			"$0",
+			"$1{2}",
+			"$1",
+			"\\1",
+			"{$1}",
+			"$1",
+			"$1{2}",
+			"api_v1",
+			"ApiV1",
+			"%",
+			"\\.cuisines",
+			"cuisines",
+			"@cuisine",
+			"cuisines",
+			"<%=\\1%>",
+			"<%=$1%>",
+			"\\u",
+			"，",
+			"",
+			"images/",
+			"fonts/",
+			"images/",
+			"../images/",
+			"../fonts/",
+			"../images/",
+			"images/",
+			"../images/",
+			"images/",
+			"../images/",
+			"../images",
+			"../../images",
+			"#",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "final/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6459,
+								6459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3400.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "final/topogram/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9470,
+								9470
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4595.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "data-visualization.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_form",
+				"app/views/admin/stores/_form.html.slim"
+			],
+			[
+				"form",
+				"app/views/admin/cuisines/_form.html.slim"
+			],
+			[
+				"index",
+				"app/views/admin/stores/index.html.slim"
+			],
+			[
+				"show",
+				"app/views/admin/stores/show.html.slim"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"",
+				"app/helpers/pages_helper.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

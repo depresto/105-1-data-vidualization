@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cartogram of the world's languages</title>
+    <meta charset="utf-8">
+    <script src="script/d3.v3.min.js"></script>
+    <script src="script/colorbrewer.js"></script>
+    <script src="script/topojson.js"></script>
+    <script src="script/cartogram.js"></script>
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/bootstrap-select.min.css">
+    <style type="text/css">
+
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+        font-size: 14px;
+        line-height: 1.4em;
+        padding: 0;
+        margin: 0;
+      }
+
+      #container {
+        width: 900px;
+        margin: 20px auto;
+      }
+
+      h1 {
+        font-size: 200%;
+        margin: 0 0 15px 0;
+      }
+
+      h2 {
+        font-size: 160%;
+        margin: 0 0 10px 0;
+      }
+
+      p {
+        margin: 10px;
+      }
+
+      form, form > * {
+        margin: 0;
+      }
+
+      #status {
+        color: #999;
+      }
+
+      #map-container {
+        height: 550px;
+        text-align: center;
+        position: relative;
+        margin: 20px 0;
+      }
+
+      #map {
+        display: block;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      path.state {
+        stroke: #666;
+        stroke-width: .5;
+      }
+
+      path.state:hover {
+        stroke: #000;
+      }
+
+      form {
+        font-size: 120%;
+      }
+
+      select {
+        font-size: inherit;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <center>
+        <div class="page-header">
+          <h1>桌上食物從哪來</h1>
+        </div>
+        <form>
+          <p>
+            <label>項目：</label>
+            <select id="field" class="selectpicker"></select> 
+            <label>年月：</label>
+            <select id="yearmonth" class="selectpicker"></select>            
+            <button id="play" class="btn btn-primary" onclick="animateByYearMonth()"><span class="glyphicon glyphicon-triangle-right"  aria-hidden="true"></span> 從頭播放</button>
+          </p>
+        </form>
+        <p>
+          <label>目前顯示：</label>
+          <span id="status"></span>
+        </p>
+      </center>
+      <div id="map-container">
+        <svg id="map"></svg>
+      </div>
+    
+    <script>
+
+      // hide the form if the browser doesn't do SVG,
+      // (then just let everything else fail)
+      if (!document.createElementNS) {
+        document.getElementsByTagName("form")[0].style.display = "none";
+      }
+
+      // field definitions from:
+      // <http://www.census.gov/popest/data/national/totals/2011/files/NST-EST2011-alldata.pdf>
+      var percent = (function() {
+            var fmt = d3.format(".2f");
+            return function(n) { return fmt(n) + "%"; };
+          })();
+          fields = [
+              {name: "請選擇", id: "none"},
+              {name: "蘋果", id: "apple"},
+              {name: "咖啡", id: "coffee"},
+              {name: "魚", id: "fish"},
+              {name: "稻米", id: "rice"},
+              {name: "蔗糖", id: "sugar"},
+          ],
+          yearmonths = [10411, 10412, 10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508, 10509, 10510],
+          fieldsById = d3.nest()
+            .key(function(d) { return d.id; })
+            .rollup(function(d) { return d[0]; })
+            .map(fields),
+          field = fields[0],
+          dataIndex = 1,
+          yearmonth = yearmonths[0],
+          colors = colorbrewer.YlOrRd[3]
+            //.reverse()
+            .map(function(rgb) { return d3.hsl(rgb); });
+
+      var unit = " 公噸";
+
+      var body = d3.select("body"),
+          stat = d3.select("#status");
+
+      var fieldSelect = d3.select("#field")
+        .on("change", function(e) {
+          field = fields[this.selectedIndex];
+          location.hash = "#" + [field.id, yearmonth].join("/");
+        });
+
+      fieldSelect.selectAll("option")
+        .data(fields)
+        .enter()
+        .append("option")
+          .attr("value", function(d) { return d.id; })
+          .text(function(d) { return d.name; });
+
+      var yearmonthSelect = d3.select("#yearmonth")
+        .on("change", function(e) {
+          yearmonth = yearmonths[this.selectedIndex];
+          location.hash = "#" + [field.id, yearmonth].join("/");
+          console.log(yearmonth)
+        }); 
+
+      yearmonthSelect.selectAll("option")
+        .data(yearmonths)
+        .enter()
+        .append("option")
+          .attr("value", function(y) { return y; })
+          .text(function(y) { return y; })
+
+
+      var map = d3.select("#map"),
+          zoom = d3.behavior.zoom()
+            .translate([50,160])
+            .scale(0.8)
+            //.scaleExtent([0.5, 10.0])
+            .on("zoom", updateZoom),
+          layer = map.append("g")
+            .attr("id", "layer"),
+          worldcountries = layer.append("g")
+            .attr("id", "worldcountries")
+            .selectAll("path");
+          layer2 = map.append("g")
+            .attr("id","layer2");
+
+      // map.call(zoom);
+      updateZoom();
+
+      function updateZoom() {
+        var scale = zoom.scale();
+        layer.attr("transform",
+          "translate(" + zoom.translate() + ") " +
+          "scale(" + [scale, scale] + ")");
+      }
+
+      var proj = d3.geo.mercator(),
+          topology,
+          geometries,
+          rawData,
+          dataById = {},
+          carto = d3.cartogram()
+            .projection(proj)
+            .properties(function(d) {
+              return dataById[d.id];
+            })
+            .value(function(d) {
+              return +d.properties[field];
+            });
+
+      window.onhashchange = function() {
+        parseHash();
+      };
+
+      var url = ["data",
+            // "countries.geo.topojson"
+            "worldcountries.topojson"
+          ].join("/");
+      d3.json(url, function(topo) {
+        topology = topo;
+        // geometries = topology.objects.countries.geometries;
+        geometries = topology.objects.worldcountries.geometries;
+        //geometries = features.properties.geometry;
+        
+        getData(init);
+      });
+
+      function getData(callback) {
+
+        var data_url = ["data",
+                        "import",
+                        fields[dataIndex].id + '.csv'
+                        ].join("/");
+
+        d3.csv(data_url, function(data) {
+          rawData = data;
+          //console.log(data);
+          dataById = d3.nest()
+            .key(function(d) { return d.code; })
+            .rollup(function(d) {  return d[0]; })
+            .map(data);
+
+            callback();
+          
+        });
+
+      }
+
+      function init() {
+        var features = carto.features(topology, geometries),
+            path = d3.geo.path()
+              .projection(proj);
+              //console.log(features);
+
+       
+        worldcountries = worldcountries.data(features)
+          .enter()
+          .append("path")
+            .attr("class", "state")
+            .attr("id", function(d) {
+              return d.properties.code;
+              //return d.objects.worldcountries.geometries.id;
+            })
+            .attr("fill", "#fafafa")
+            .attr("d", path)
+            .attr("cursor","pointer");
+
+        worldcountries.append("title");
+        
+
+        parseHash();
+      }
+
+      function reset() {
+        stat.text("");
+        body.classed("updating", false);
+
+        var features = carto.features(topology, geometries),
+            path = d3.geo.path()
+              .projection(proj);
+
+        worldcountries.data(features)
+          .transition()
+            .duration(750)
+            .ease("linear")
+            .attr("fill", "#fafafa")
+            .attr("d", path);
+
+        worldcountries.select("title")
+          .text(function(d) {
+            return d.properties.country;
+          });
+
+        // yearmonthSelect.selectAll("option")
+        //   .attr("disabled", true);
+
+        location.replace("#");
+          
+      }
+
+      function update() {
+        var start = Date.now();
+        body.classed("updating", true);
+        
+        // var key = field.key.replace("%d", year),
+        // var key = year + monthFormat(month),
+        var key = yearmonth,
+            fmt = (typeof field.format === "function")
+              ? field.format
+              : d3.format(field.format || ","),
+            value = function(d) {
+              // console.log(d.properties[key])
+              return +d.properties[key];
+            },
+            values = worldcountries.data()
+              .map(value)
+              .filter(function(n) {
+                return !(isNaN(n) || n == 0);
+              })
+              .sort(d3.ascending),
+            lo = values[0],
+            hi = values[values.length - 1];
+
+        var color = d3.scale.log()
+          .range(colors)
+          // .domain(lo < 0
+          //   ? [lo, 0, hi]
+          //   : [lo, d3.mean(values), hi]);
+          .domain([lo, d3.mean(values), hi]);
+
+        // normalize the scale to positive numbers
+        var scale = d3.scale.linear()
+          .domain([lo, hi])
+          .range([1, 1000]);
+
+        // tell the cartogram to use the scaled values
+        carto.value(function(d) {
+          return scale(value(d));
+        });
+
+        // generate the new features, pre-projected
+        var features = carto(topology, geometries).features;
+
+        // update the data
+        worldcountries.data(features)
+          .select("title")
+            .text(function(d) {
+              return [d.properties.country, fmt(value(d))].join(": ") + unit;
+            });
+
+        worldcountries.transition()
+          .duration(1500)
+          .ease("linear")
+          .attr("fill", function(d) {
+            return color(value(d));
+          })
+          .attr("d", carto.path);
+
+        var delta = (Date.now() - start) / 1000;
+        // stat.text(["calculated in", delta.toFixed(1), "seconds"].join(" "));
+        body.classed("updating", false);
+      }
+      
+      
+
+      var deferredUpdate = (function() {
+        var timeout;
+        return function() {
+          var args = arguments;
+          clearTimeout(timeout);
+          stat.text(field.name + '/' + yearmonth);
+          return timeout = setTimeout(function() {
+            update.apply(null, arguments);
+          }, 10);
+        };
+      })();
+
+      var hashish = d3.selectAll("a.hashish")
+        .datum(function() {
+          return this.href;
+        });
+
+      function parseHash() {
+        var parts = location.hash.substr(1).split("/"),
+            desiredFieldId = parts[0],
+            desiredYearMonth = +parts[1];
+
+            // console.log(desiredYearMonth)
+
+        field = fieldsById[desiredFieldId] || fields[0];
+        yearmonth = (yearmonths.indexOf(desiredYearMonth) > -1) ? desiredYearMonth : yearmonths[0];
+
+        // console.log(field)
+
+        fieldSelect.property("selectedIndex", fields.indexOf(field));
+
+        if (field.id === "none") {
+
+          d3.select("#play").classed("hidden", true);
+          reset();
+
+        } else {
+
+          d3.select("#play").classed("hidden", false);
+          // yearmonthSelect
+          //   .property("selectedIndex", yearmonths.indexOf(yearmonth))
+          //   .attr("disabled", null); 
+
+          newDataIndex = fields.indexOf(field);
+
+          if (dataIndex != newDataIndex){
+            
+            dataIndex = newDataIndex;
+            getData(deferredUpdate)
+
+          }else {
+            deferredUpdate();
+          }
+
+          location.replace("#" + [field.id, yearmonth].join("/"));
+
+          hashish.attr("href", function(href) {
+            return href + location.hash;
+          });
+        }
+      }
+
+      function animateByYearMonth(){
+        var counter = 0;
+        var i = setInterval(function(){
+
+            location.replace("#" + [field.id, yearmonths[counter]].join("/"));
+
+            counter++;
+            if(counter === yearmonths.length) {
+                clearInterval(i);
+            }
+        }, 2500);
+      }
+
+    </script>
+  </body>
+</html>
+
