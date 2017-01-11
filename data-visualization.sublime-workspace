@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background-color"
+			],
+			[
 				"new",
 				"newDataIndex"
 			],
@@ -510,28 +514,24 @@
 			[
 				"do",
 				"do"
-			],
-			[
-				"name",
-				"namespace"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "final/index.html",
+			"file": "presentation/templated-theory/index.html",
 			"settings":
 			{
-				"buffer_size": 12174,
-				"line_ending": "Unix"
+				"buffer_size": 6629,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "final/topogram/test.html",
+			"file": "final/index.html",
 			"settings":
 			{
-				"buffer_size": 10302,
+				"buffer_size": 12149,
 				"line_ending": "Unix"
 			}
 		}
@@ -822,20 +822,25 @@
 	[
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram/data",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram/lib",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style"
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/assets",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/assets/css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/script"
 	],
 	"file_history":
 	[
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/index.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/assets/css/main.css",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/index.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/topogram/test.html",
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/assets/css/font-awesome.min.css",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/none.csv",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style/bootstrap-select.min.css",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/bootstrap-select.min.js",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/jquery.min.js",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style/bootstrap.min.css",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/index.html",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/rice.csv",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/fish.csv",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import/coffee.csv",
@@ -845,7 +850,6 @@
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/nrlangspop.csv",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/catogram.html",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/worldcountries.topojson",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/topogram/test.html",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/cartogram.js",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/topojson.js",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/script/cartogram.v1.js",
@@ -954,10 +958,7 @@
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/edit.html.slim",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/orders/index.html.slim",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/admin/stores/index.html.slim",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/edit.html.slim",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/order_details/_form.html.slim",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/order_details/edit.html.slim",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/index.html.slim"
+		"/Volumes/DataHD/Users/WayneHuang/WebDev/fifthDorm-backend/app/views/orders/edit.html.slim"
 	],
 	"find":
 	{
@@ -980,6 +981,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"style2",
+			"style!",
+			"style",
+			"#two",
+			"banner",
+			"pic0",
+			"special",
 			"data",
 			"disabled",
 			"year",
@@ -1100,14 +1108,7 @@
 			"#U",
 			"scp",
 			"#U",
-			"#page-title",
-			"page-title",
-			"page-title ",
-			"page-title h1",
-			"PAGE-TITLE",
-			"soon",
-			"flag",
-			"enve"
+			"#page-title"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1165,29 +1166,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "final/index.html",
+					"file": "presentation/templated-theory/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12174,
+						"buffer_size": 6629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6459,
-								6459
+								633,
+								633
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3400.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1195,30 +1195,29 @@
 				},
 				{
 					"buffer": 1,
-					"file": "final/topogram/test.html",
-					"semi_transient": false,
+					"file": "final/index.html",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 10302,
+						"buffer_size": 12149,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9470,
-								9470
+								3649,
+								3649
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4595.0,
+						"translation.y": 4600.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
