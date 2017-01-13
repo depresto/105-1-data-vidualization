@@ -534,6 +534,14 @@
 				"buffer_size": 12149,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -822,11 +830,8 @@
 	[
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/data/import",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/final/style",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/assets",
-		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/presentation/templated-theory/assets/css",
 		"/Volumes/DataHD/Users/WayneHuang/WebDev/105-1-data-vidualization/script"
 	],
 	"file_history":
@@ -1161,7 +1166,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1177,8 +1182,8 @@
 						"selection":
 						[
 							[
-								633,
-								633
+								369,
+								369
 							]
 						],
 						"settings":
@@ -1190,13 +1195,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "final/index.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 12149,
@@ -1217,10 +1222,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4600.0,
+						"translation.y": 1807.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

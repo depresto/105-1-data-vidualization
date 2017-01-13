@@ -123,12 +123,12 @@
             return function(n) { return fmt(n) + "%"; };
           })();
           fields = [
-              {name: "請選擇", id: "none"},
-              {name: "蘋果", id: "apple"},
-              {name: "咖啡", id: "coffee"},
-              {name: "魚", id: "fish"},
-              {name: "稻米", id: "rice"},
-              {name: "蔗糖", id: "sugar"},
+              {name: "請選擇", id: "none",   url: "data/import/none.csv"},
+              {name: "蘋果",   id: "apple",  url: "data/import/apple.csv"},
+              {name: "咖啡",   id: "coffee", url: "https://yvonne54511.github.io/project/coffeeData.csv"},
+              {name: "魚",     id: "fish",   url: "https://latingliu.github.io/lalalala/fish.csv"},
+              {name: "稻米",   id: "rice",   url: "data/import/rice.csv"},
+              {name: "蔗糖",   id: "sugar",  url: "https://graceyuching.github.io/D3/sugar.csv"}
           ],
           yearmonths = [10411, 10412, 10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508, 10509, 10510],
           fieldsById = d3.nest()
@@ -232,10 +232,12 @@
 
       function getData(callback) {
 
-        var data_url = ["data",
-                        "import",
-                        fields[dataIndex].id + '.csv'
-                        ].join("/");
+        // var data_url = ["data",
+        //                 "import",
+        //                 fields[dataIndex].id + '.csv'
+        //                 ].join("/");
+
+        var data_url = fields[dataIndex].url;
 
         d3.csv(data_url, function(data) {
           rawData = data;
